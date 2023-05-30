@@ -21,7 +21,7 @@ To create a Lab ID for the Simple Deployment, go to the settings page of your Se
 
 
     <figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
-4. Select the “CD only” option![](<../../.gitbook/assets/image (26).png>) and click on Save.
+4. Select the “CD only” option![](<../../.gitbook/assets/image (26).png>) and click on Create.
 
 A new LabID was created and appears in the list, with the type 'CDOnly' highlighted.&#x20;
 
