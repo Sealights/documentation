@@ -12,7 +12,7 @@ These identifiers are called LabID and have a few variants depending on your top
 To create a Lab ID for the Simple Deployment, go to the settings page of your SeaLights dashboard:
 
 1. Under 'Cockpit & Onboarding → Integration Build Labs', click on the button "Create new Integration Build Lab” ![](<../../.gitbook/assets/image (6).png>)
-2.  In the form that opens, define an AppName that reflects your Product Name.&#x20;
+2.  In the form that opens, define an App Name that reflects your Product Name.&#x20;
 
     * A Product reflects a collection of application components (microservices, web applications, monolith backend, etc.). For example, your "Online Store" project.
 
