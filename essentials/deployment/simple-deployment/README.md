@@ -39,7 +39,7 @@ The following steps are required in order to install the agent:
 
 1. [Create](../../../administration/account-management/token-management.md#creating-an-agent-token) an [agent token](#user-content-fn-3)[^3] (you'll need this token for the Sealights Agent configuration in step #3)
 2. [Create a ](../../../administration/account-management/testing-environments-and-identifiers-management.md#create-a-simple-deployment-integration-build-lab)[Lab ID](#user-content-fn-4)[^4] (you'll need this generated identifier for the Sealights Agent configuration in step #3)
-3. Download the Sealights Agent and configure your application to start with it.
+3. Download the Sealights Agent and configure your application to start with it. Detailed instructions on downloading and installing the agent will follow the notes below.
 
 {% hint style="info" %}
 Note that the agent configuration step (step #3) must be repeated for each application component you want to capture coverage for.
@@ -78,7 +78,8 @@ In case one of the steps above did not succeed and you were not able to resolve 
 ## Further Reading
 
 * Enable logs
-* Opening a support ticket
+
+
 
 [^1]: A test cycle is a collection of tests organized to accomplish specific testing objectives, encompassing a broader scope than individual tests. Common examples are Regression Tests, End-To-End Tests, Manual Tests, and more.
 
