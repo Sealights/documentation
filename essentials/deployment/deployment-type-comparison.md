@@ -4,8 +4,8 @@
 
 Sealights have two types of installations:
 
-* CI Deployment - Install Sealights in the CI Pipeline, where the source code is being built and configured. **Read more.**
-* CD Deployment - Install Sealights on your UAT environment. **Read more.**
+* Simple Deployment - Install Sealights on your UAT environment.
+* Advanced Deployment - Install Sealights in the CI Pipeline, where the source code is being built and configured.
 
 | Feature           | Simple Deployment | Advanced Deployment |
 | ----------------- | ----------------- | ------------------- |
@@ -15,3 +15,15 @@ Sealights have two types of installations:
 | Quality Trends    | Yes               | Yes                 |
 | Contributors      | No                | Yes                 |
 | Commit messages   | No                | Yes                 |
+
+### Simple Deployment - Illustration
+
+<figure><img src="../../.gitbook/assets/Diagram.png" alt=""><figcaption></figcaption></figure>
+
+### Advanced Deployment - Illustration
+
+<figure><img src="../../.gitbook/assets/Diagram.png" alt=""><figcaption></figcaption></figure>
+
+### Advanced Deployment (Parallel Test Stage for the same product) - Illustration
+
+<figure><img src="../../.gitbook/assets/Diagram.png" alt=""><figcaption></figcaption></figure>

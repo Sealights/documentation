@@ -18,6 +18,8 @@ A complete Sealights installation of a product involves three logical steps:
 In Simple Deployment, steps 1 and 2 happen together on the application under test.
 {% endhint %}
 
+<figure><img src="../../../.gitbook/assets/Diagram.png" alt=""><figcaption></figcaption></figure>
+
 ## Setup
 
 ### Prerequisites&#x20;
@@ -49,7 +51,7 @@ When deploying an application component for the environment, do so from the same
 
 Please select your backend technology to get detailed installation instructions:
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td>Java</td><td></td><td><a href="../../../.gitbook/assets/java.png">java.png</a></td><td><a href="java-agent-installation-and-setup/">java-agent-installation-and-setup</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td>Java</td><td></td><td><a href="../../../.gitbook/assets/logo-3.png">logo-3.png</a></td><td><a href="java-agent-installation-and-setup/">java-agent-installation-and-setup</a></td></tr></tbody></table>
 
 {% hint style="success" %}
 Congratulations! At the end of this step, you can already capture coverage from your Manual Tests. Please follow [these instructions ](../running-your-tests/manual-tests/manual-tests-reported-via-the-dashboard-widget.md)to see how to do so.&#x20;
