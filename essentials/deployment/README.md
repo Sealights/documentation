@@ -18,8 +18,6 @@ All of the aforementioned steps are mandatory, regardless of the Sealights offer
 
 ## <mark style="color:red;">Diagram Placeholder</mark>
 
-<figure><img src="../../.gitbook/assets/Diagram.png" alt=""><figcaption></figcaption></figure>
-
 <img src="../../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
 
 ## Deployment Types
