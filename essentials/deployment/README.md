@@ -16,16 +16,14 @@ A complete Sealights installation of a product involves three logical steps:
 All of the aforementioned steps are mandatory, regardless of the Sealights offering you are using.
 {% endhint %}
 
-## <mark style="color:red;">Diagram Placeholder</mark>
-
-<img src="../../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw.svg" alt="Three logical steps in onboarding a product to Sealights. " class="gitbook-drawing">
 
 ## Deployment Types
 
 There are two Deployment Types in Sealights:
 
-1. **Simple Deployment -** Allows for quick onboarding of a <mark style="color:orange;">**product**</mark> composed of backend services for a single environment[^4] and [test stage](#user-content-fn-5)[^5]. It allows you to use most of Sealights offering in a quick and easy setup. This is the recommended deployment for getting started with a new team.
-2. **Advanced Deployment. -** Allows you to onboard a <mark style="color:orange;">**product**</mark> composed of multiple application components (backend services and front end) for multiple environments[^6], [test stages](#user-content-fn-7)[^7], and technologies.
+1. **Simple Deployment -** Allows for quick onboarding of a product[^4] composed of backend services for a single environment[^5] and [test stage](#user-content-fn-6)[^6]. It allows you to use most of Sealights offering in a quick and easy setup. This is the recommended deployment for getting started with a new team.
+2. **Advanced Deployment. -** Allows you to onboard a product[^7] composed of multiple application components (backend services and front end) for multiple environments[^8], [test stages](#user-content-fn-9)[^9], and technologies.
 
 {% hint style="info" %}
 For a complete comparison between Simple Deployment and Advanced Deployment, [click here](deployment-type-comparison.md).
@@ -41,10 +39,14 @@ Choose a deployment type:
 
 [^3]: As part of the Test Optimization offering, Sealights recommends which tests should be run. This is done by considering historical runs of your tests and correlating them with your current code changes. You can accelerate your CI without compromising your quality by running these recommendations.
 
-[^4]: A set of machines/containers that are hosting your System Under Test (SUT).&#x20;
+[^4]: A collection of application components (microservices, web applications, monolith backend, etc.).
 
-[^5]: A test stage or test cycle is a collection of tests organized to accomplish specific testing objectives, encompassing a broader scope than individual tests. Common examples are Regression Tests, End-To-End Tests, Manual Tests, and more.
+[^5]: A set of machines/containers that are hosting your System Under Test (SUT).&#x20;
 
-[^6]: Environment: a set of machines/containers that are hosting your System Under Test (SUT).&#x20;
+[^6]: A test stage or test cycle is a collection of tests organized to accomplish specific testing objectives, encompassing a broader scope than individual tests. Common examples are Regression Tests, End-To-End Tests, Manual Tests, and more.
 
-[^7]: A test stage or test cycle is a collection of tests organized to accomplish specific testing objectives, encompassing a broader scope than individual tests. Common examples are Regression Tests, End-To-End Tests, Manual Tests, and more.
+[^7]: A collection of application components (microservices, web applications, monolith backend, etc.).
+
+[^8]: Environment: a set of machines/containers that are hosting your System Under Test (SUT).&#x20;
+
+[^9]: A test stage or test cycle is a collection of tests organized to accomplish specific testing objectives, encompassing a broader scope than individual tests. Common examples are Regression Tests, End-To-End Tests, Manual Tests, and more.

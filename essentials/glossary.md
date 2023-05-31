@@ -10,11 +10,11 @@ description: >-
 
 
 
-### Agent
+## Agent
 
 On-prem executable provided by Sealights and specific to a technology
 
-### Contributors
+## Contributors
 
 Developer that pushed a code change in the Git-based SCM
 
