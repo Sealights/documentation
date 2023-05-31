@@ -16,7 +16,7 @@ With regards to deploying an agent on a new application, a DevOps user has **hig
 
 In order to verify your role, please follow these steps:
 
-1. Login to the Sealights portal of your organization.
+1. Login to the Sealights portal of your organization. The link to the portal is in the structure of `<customer>.sealights.co`, for example, https://mycompany.sealights.co.
 2. Click on the avatar of your user and then click on _**My Profile**_
 3. Your role appears under your name.
 
