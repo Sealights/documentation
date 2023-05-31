@@ -18,7 +18,7 @@ A complete Sealights installation of a product involves three logical steps:
 In Simple Deployment, steps 1 and 2 happen together on the application under test.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/Diagram.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Nadav - SeaLights Code Coverage for One Environment Architecture (1).pptx (4).png" alt=""><figcaption></figcaption></figure>
 
 ## Setup
 

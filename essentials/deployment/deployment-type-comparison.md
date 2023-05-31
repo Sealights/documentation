@@ -18,12 +18,12 @@ Sealights have two types of installations:
 
 ### Simple Deployment - Illustration
 
-<figure><img src="../../.gitbook/assets/Diagram.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Nadav - SeaLights Code Coverage for One Environment Architecture (1).pptx (4).png" alt=""><figcaption></figcaption></figure>
 
 ### Advanced Deployment - Illustration
 
-<figure><img src="../../.gitbook/assets/Diagram.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Nadav - SeaLights Code Coverage for One Environment Architecture (1).pptx (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Advanced Deployment (Parallel Test Stage for the same product) - Illustration
 
-<figure><img src="../../.gitbook/assets/Diagram.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Nadav - SeaLights Code Coverage for One Environment Architecture (1).pptx (2).png" alt=""><figcaption></figcaption></figure>
