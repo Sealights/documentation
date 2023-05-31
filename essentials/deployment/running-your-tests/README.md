@@ -14,5 +14,5 @@ Sealights collects coverage from a Test Cycle. By integrating into your automate
 
 The installation process of Sealights differs between Automated Tests and Manual Tests. Please select the type of tests you would like to run:
 
-<table data-view="cards"><thead><tr><th></th><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td align="center">Automated Tests</td><td align="center"></td><td><a href="automated-tests/">automated-tests</a></td></tr><tr><td></td><td align="center">Manual Tests</td><td align="center"></td><td><a href="manual-tests/">manual-tests</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td align="center"><strong>Automated Tests</strong></td><td align="center"></td><td><a href="automated-tests/">automated-tests</a></td></tr><tr><td></td><td align="center"><strong>Manual Tests</strong></td><td align="center"></td><td><a href="manual-tests/">manual-tests</a></td></tr></tbody></table>
 
