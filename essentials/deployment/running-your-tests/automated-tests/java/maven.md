@@ -86,12 +86,22 @@ In the file above, you need to make sure the following lines are specific to you
 * line 9: If required, proxy details. &#x20;
 {% endhint %}
 
+
+
+<details>
+
+<summary>Optional Agent Parameters</summary>
+
 There are additional parameters you can provide
 
 1. **proxy** - (Optional) Address of proxy to run connection through
 2. **filesStorage** - Set to the temp folder for the agent to create temporary files in. For example **/tmp**
 3. **logEnabled** - Set to **true** if you want a log to be created
 4. **logLevel** - Set the log level to create. For example, **WARN** or **INFO**
+
+</details>
+
+
 
 Name this file with a convenient name (`slmaventest.json` for example) and place it in your Project workspace for the next steps below.
 
