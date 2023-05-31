@@ -34,7 +34,7 @@ Creating a Browser Extention Token doesn't require special permissions. All user
 
 In order to create a Browser Extention Token, follow the following steps:
 
-1. Go to the _**settings**_ page. This can be done by clicking on the _**cog**_ icon in the top right corner of the screen (next to your user's avatar).
+1. Go to the _**settings**_ page. This can be done by clicking on the _**cog**_ icon (<img src="../../.gitbook/assets/image (1).png" alt="" data-size="line">)  in the top right corner of the screen (next to your user's avatar).
 2. Go to the _**Integration**_ section in the menu and click _**Browser Extension Tokens**._
 3. In the _**Browser Extension Tokens**_ screen, click on the _**Create New Token**_ button. Make sure to click on the button and not on the text. This will allow you to input a new name fo the token.
 4. Name the token. As tokens are shared across the organization, name them in a descriptive name and click on _**Save**._&#x20;
@@ -48,7 +48,7 @@ Creating an API Token requires DevOps or Admin user role. Please refer to the [O
 
 In order to create an API Token, follow the following steps:
 
-1. Go to the _**settings**_ page. This can be done by clicking on the _**cog**_ icon in the top right corner of the screen (next to your user's avatar).
+1. Go to the _**settings**_ page. This can be done by clicking on the _**cog**_ icon (<img src="../../.gitbook/assets/image (1).png" alt="" data-size="line">) in the top right corner of the screen (next to your user's avatar).
 2. Go to the _**Integration**_ section in the menu and click _**API Tokens**._
 3. In the _**API Tokens**_ screen, click on the _**Create New Token**_ button. Make sure to click on the button and not on the text. This will allow you to input a new name fo the token.
 4. Name the token. As tokens are shared across the organization, name them in a descriptive name and click on _**Save**._&#x20;
