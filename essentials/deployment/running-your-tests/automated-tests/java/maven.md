@@ -6,7 +6,7 @@ This guide covers how to integrate Sealights into your tests running in [Maven](
 
 ## Prerequisites
 
-1. Verify that the environment of the application under test and the machine(s) that run the test have connectivity to Sealights Cloud. See the [<mark style="color:red;">**how to verify connectivity**</mark> ](../../../../../check-the-connectivity-to-the-sealights-server-from-my-machine.md)guide for more information.
+1. Verify that the environment of the application under test and the machine(s) that run the test have connectivity to Sealights Cloud. See the <mark style="color:red;">**how to verify connectivity**</mark> guide for more information.
 2. Installing Sealights requires modifying your application components' deployment scripts and possibly the CI Job that runs your tests. Please verify you have the necessary permissions in your organization.
 
 ## Setup
@@ -17,7 +17,7 @@ This guide covers how to integrate Sealights into your tests running in [Maven](
 
 ### Download the Sealights Advanced Agent
 
-You can download the Sealights Advanced Agent form: [https://agents.sealights.co/sealights-java/sealights-java-latest.zip](https://agents.sealights.co/sealights-java/sealights-java-latest.zip) and place it in your workspace where your Maven project is located.
+Download the Sealights Agent form: [https://agents.sealights.co/sealights-java/sealights-java-latest.zip](https://agents.sealights.co/sealights-java/sealights-java-latest.zip) and place it in your workspace where your Maven project is located.
 
 You can use the following commands to automate the process in the environment setup script
 
