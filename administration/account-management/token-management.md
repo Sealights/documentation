@@ -20,6 +20,8 @@ Creating an Agent Token requires a DevOps user role. Please refer to the [Onboar
 4. Name the token. As tokens are shared across the organization, name them in a descriptive name and click on _**Save**._&#x20;
 5. If successful, the token will be added to the list of tokens. In addition, an _"Agent token created and copied to the clipboard successfully"_ message will appear at the bottom of the screen.&#x20;
 
+{% embed url="https://www.loom.com/share/9cb4cc020d624ebeb130b1868f7fc7f0" %}
+
 {% hint style="info" %}
 An Agent Token can be passed as a parameter to Sealights agent in three ways: as a file, as a hard-coded value, or via an environment variable (usually via a Credential Manager).
 
