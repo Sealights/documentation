@@ -43,11 +43,11 @@ The following list contains a list of out of the box integrations to our agent. 
 
 #### .NET Core
 
-<table data-view="cards"><thead><tr><th></th><th align="center"></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td align="center">MSTest</td><td></td><td><a href="../../../../.gitbook/assets/Untitled design (11).png">Untitled design (11).png</a></td></tr><tr><td></td><td align="center">NUnit</td><td></td><td></td></tr><tr><td></td><td align="center">xUnit</td><td></td><td></td></tr><tr><td></td><td align="center">Other</td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th align="center"></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td align="center">MSTest</td><td></td><td><a href="../../../../.gitbook/assets/Untitled design (11).png">Untitled design (11).png</a></td></tr><tr><td></td><td align="center">NUnit</td><td></td><td><a href="../../../../.gitbook/assets/Untitled design (12).png">Untitled design (12).png</a></td></tr><tr><td></td><td align="center">xUnit</td><td></td><td><a href="../../../../.gitbook/assets/Untitled design (13).png">Untitled design (13).png</a></td></tr><tr><td></td><td align="center">Other</td><td></td><td></td></tr></tbody></table>
 
 #### .NET Framework
 
-<table data-view="cards"><thead><tr><th></th><th align="center"></th><th></th></tr></thead><tbody><tr><td></td><td align="center">MSTest</td><td></td></tr><tr><td></td><td align="center">NUnit</td><td></td></tr><tr><td></td><td align="center">xUnit</td><td></td></tr><tr><td></td><td align="center">Other</td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th align="center"></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td align="center">MSTest</td><td></td><td><a href="../../../../.gitbook/assets/Untitled design (11).png">Untitled design (11).png</a></td></tr><tr><td></td><td align="center">NUnit</td><td></td><td><a href="../../../../.gitbook/assets/Untitled design (12).png">Untitled design (12).png</a></td></tr><tr><td></td><td align="center">xUnit</td><td></td><td><a href="../../../../.gitbook/assets/Untitled design (13).png">Untitled design (13).png</a></td></tr><tr><td></td><td align="center">Other</td><td></td><td></td></tr></tbody></table>
 
 #### Node JS
 
