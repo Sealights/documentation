@@ -170,6 +170,8 @@ java -jar sl-build-scanner.jar -pom -configfile slmaventests.json -workspacepath
 ```
 {% endcode %}
 
+{% embed url="https://www.loom.com/share/8ed55a986ff54d6082edd5326b3f2779" %}
+
 ## Optional&#x20;
 
 ### Restore your Maven configuration to its previous state
