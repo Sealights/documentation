@@ -6,7 +6,7 @@ This guide covers how to integrate Sealights into your tests running in [Maven](
 
 ## Prerequisites
 
-1. Verify that the environment of the application under test and the machine(s) that run the test have connectivity to Sealights Cloud. See the <mark style="color:red;">**how to verify connectivity**</mark> guide for more information.
+1. Verify that the environment of the application under test and the machine(s) that run the test have connectivity to Sealights Cloud. See the [how to verify connectivity](../../../../../check-the-connectivity-to-the-sealights-server-from-my-machine.md) guide for more information.
 2. Installing Sealights requires modifying your application components' deployment scripts and possibly the CI Job that runs your tests. Please verify you have the necessary permissions in your organization.
 
 ## Setup
