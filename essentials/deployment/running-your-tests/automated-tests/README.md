@@ -21,7 +21,7 @@ The following section describes how to use a Deep Agent Integration, which allow
 ### Prerequisites&#x20;
 
 1. Scan and configure your application for code coverage collection. For more information, please refer to the [Deployment](../../) page.
-2. Verify that the machine(s) that run the test have connectivity to Sealights Cloud. See the <mark style="color:red;">**how to verify connectivity**</mark> guide for more information.
+2. Verify that the machine(s) that run the test have connectivity to Sealights Cloud. See the [**how to verify connectivity**](../../../../check-the-connectivity-to-the-sealights-server-from-my-machine.md) guide for more information.
 3. Know your automated tests setup. You need to know the following:
    1. Which test framework is being used?&#x20;
    2. What is the command to run the tests?&#x20;
@@ -30,12 +30,12 @@ The following section describes how to use a Deep Agent Integration, which allow
 ### Installation
 
 {% hint style="info" %}
-The result of configuring Deep Agent Integration is that our agent is running as part of the Test Framework/Runner process. This allows the agent to hook to the relevant events and send test data & metadata to Sealights.
+Configuring Deep Agent Integration results in our agent running as part of the Test Framework/Runner process. This allows the agent to hook to the relevant events and send test data & metadata to Sealights.
 
-In order to ease the onboarding, we have created several plugins/integrations that will help you to configure the agent. Suppose by any means you don't see an integration that is relevant to you, but your <mark style="color:red;">**test framework is supported**</mark>. In that case, you can always revert to <mark style="color:red;">**manually integrating an agent into a test process**</mark>.
+In order to ease the onboarding, we have created several plugins/integrations that will help you to configure the agent. In cases where an integration/plugin doesn't exist but your <mark style="color:red;">**test framework is listed as supported**</mark>, you can always revert to <mark style="color:red;">**manually integrating an agent into a test process**</mark>.
 {% endhint %}
 
-The following list contains a list of out of the box integrations to our agent. When considering how to integrate, the first thing you must consider is the technology in which your tests are written. Once you know that, please search the list below for the relevant integration.
+The following list contains a list of out-of-the-box integrations to our agent. When considering how to integrate, you must first consider the technology in which your tests are written. Once you know that, please search the list below for the relevant integration for the technology.
 
 #### Java
 
