@@ -39,6 +39,10 @@ export JAVA_OPTS+="$SEALIGHTS_OPTIONS"
 * JAVA\_TOOL\_OPTIONS is limited to 1024 characters and adding parameters above this buffer size will cause java to ignore it completely.
 {% endhint %}
 
+### Video Walkthrough: Agent Configured for Java CLI&#x20;
+
+{% embed url="https://www.loom.com/share/000b6892c6c846a4b0374d2e11a5067c" %}
+
 ## Tomcat
 
 The `CATALINA_OPTS` environment variable is used to pass configuration flags and system properties to the JVM that runs specifically the Tomcat server.&#x20;
