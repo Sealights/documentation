@@ -15,7 +15,7 @@ This guide covers how to integrate Sealights into your tests running in [Maven](
 **TL;DR:** You can jump directly to the [Sample script section](maven.md#sample-script) below.
 {% endhint %}
 
-### Download the Sealights Advanced Agent
+### Download the Sealights Agent
 
 Download the Sealights Agent form: [https://agents.sealights.co/sealights-java/sealights-java-latest.zip](https://agents.sealights.co/sealights-java/sealights-java-latest.zip) and place it in your workspace where your Maven project is located.
 
