@@ -1,5 +1,7 @@
 # Testing Environments and Identifiers Management
 
+## Overview
+
 Sealights maps your testing environments based on dedicated identifiers predefined in the Settings.&#x20;
 
 These identifiers are called LabID and have a few variants depending on your topology:
@@ -28,3 +30,7 @@ A new LabID was created and appears in the list, with the type 'CDOnly' highligh
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 Copy its generated identifier using the copy button<img src="../../.gitbook/assets/image (15).png" alt="" data-size="line"> and save it for later usage in the following configuration steps.
+
+### Video Walkthrough: Creating a new integration build lab
+
+{% embed url="https://www.loom.com/share/5139dc2b929549c7a812a99ebfebba43" %}
