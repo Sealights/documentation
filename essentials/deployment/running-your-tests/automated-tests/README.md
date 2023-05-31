@@ -59,7 +59,7 @@ The following list contains a list of out of the box integrations to our agent. 
 
 #### &#x20;Python
 
-<table data-view="cards"><thead><tr><th></th><th align="center"></th><th></th></tr></thead><tbody><tr><td></td><td align="center">Nose</td><td></td></tr><tr><td></td><td align="center">Py Test</td><td></td></tr><tr><td></td><td align="center">Unittests</td><td></td></tr><tr><td></td><td align="center">Unittests2</td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th align="center"></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td align="center">Nose</td><td></td><td><a href="../../../../.gitbook/assets/Untitled design (16).png">Untitled design (16).png</a></td></tr><tr><td></td><td align="center">Py Test</td><td></td><td><a href="../../../../.gitbook/assets/Untitled design (17).png">Untitled design (17).png</a></td></tr><tr><td></td><td align="center">Unittests</td><td></td><td><a href="../../../../.gitbook/assets/Untitled design (18).png">Untitled design (18).png</a></td></tr><tr><td></td><td align="center">Unittests2</td><td></td><td><a href="../../../../.gitbook/assets/Untitled design (19).png">Untitled design (19).png</a></td></tr></tbody></table>
 
 ###
 
