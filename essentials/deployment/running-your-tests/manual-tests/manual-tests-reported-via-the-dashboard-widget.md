@@ -23,7 +23,7 @@ In any of the options, once the test is performed, it is registered by the syste
 
 
     <figure><img src="../../../../.gitbook/assets/image (17).png" alt="" width="207"><figcaption></figcaption></figure>
-5. Click on 'Start'<img src="../../../../.gitbook/assets/image (1).png" alt="" data-size="line"> and begin the execution of your test.
+5. Click on 'Start'<img src="../../../../.gitbook/assets/image (1) (1).png" alt="" data-size="line"> and begin the execution of your test.
 
 After the click on start, the interface will minimize and will only show the name of the test that is being performed.
 

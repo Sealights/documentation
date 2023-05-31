@@ -14,7 +14,7 @@ As part of the installation process of Sealights, users are required to use toke
 Creating an Agent Token requires a DevOps user role. Please refer to the [Onboarding Permissions](role-based-access-control/onboarding-permissions.md#how-to-verify-my-role) page to verify that you have the right permissions.
 {% endhint %}
 
-1. Go to the _**settings**_ page. This can be done by clicking on the _**cog**_ icon in the top right corner of the screen (next to your user's avatar).
+1. Go to the _**settings**_ page. This can be done by clicking on the _**cog**_ icon (<img src="../../.gitbook/assets/image (1).png" alt="" data-size="line">) in the top right corner of the screen (next to your user's avatar).
 2. Go to the _**Cockpit & Onboarding**_ section in the menu and click _**Agent Tokens**._
 3. In the _**Agent Tokens**_ screen, click on the _**Create New Token**_ button. Make sure to click on the button and not on the text. This will allow you to input a new name for the token.
 4. Name the token. As tokens are shared across the organization, name them in a descriptive name and click on _**Save**._&#x20;
