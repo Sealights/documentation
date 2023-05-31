@@ -51,7 +51,7 @@ The following list contains a list of out of the box integrations to our agent. 
 
 #### Node JS
 
-<table data-view="cards"><thead><tr><th></th><th align="center"></th><th></th></tr></thead><tbody><tr><td></td><td align="center">Mocha</td><td></td></tr><tr><td></td><td align="center">Jest</td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th align="center"></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td align="center">Mocha</td><td></td><td><a href="../../../../.gitbook/assets/Untitled design (14).png">Untitled design (14).png</a></td></tr><tr><td></td><td align="center">Jest</td><td></td><td><a href="../../../../.gitbook/assets/Untitled design (15).png">Untitled design (15).png</a></td></tr></tbody></table>
 
 #### Go
 
