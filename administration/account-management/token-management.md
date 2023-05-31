@@ -8,7 +8,7 @@ As part of the installation process of Sealights, users are required to use toke
 * **Browser Extention Token -** Being used with the Sealights Chrome extension.
 * **API Token -** Being used with our public APIs, apart from the APIs related to data from the agents.
 
-### Creating An Agent Token
+## Creating An Agent Token
 
 {% hint style="info" %}
 Creating an Agent Token requires a DevOps user role. Please refer to the [Onboarding Permissions](role-based-access-control/onboarding-permissions.md#how-to-verify-my-role) page to verify that you have the right permissions.
@@ -20,6 +20,8 @@ Creating an Agent Token requires a DevOps user role. Please refer to the [Onboar
 4. Name the token. As tokens are shared across the organization, name them in a descriptive name and click on _**Save**._&#x20;
 5. If successful, the token will be added to the list of tokens. In addition, an _"Agent token created and copied to the clipboard successfully"_ message will appear at the bottom of the screen.&#x20;
 
+### Video Walkthrough: Creating a new token
+
 {% embed url="https://www.loom.com/share/9cb4cc020d624ebeb130b1868f7fc7f0" %}
 
 {% hint style="info" %}
@@ -28,7 +30,7 @@ An Agent Token can be passed as a parameter to Sealights agent in three ways: as
 You're free to select the convenient option for your configuration, but, in this documentation, we'll most of the time refer to the file option for simplicity and readability.
 {% endhint %}
 
-### Creating A Browser Extention Token
+## Creating A Browser Extention Token
 
 {% hint style="info" %}
 Creating a Browser Extention Token doesn't require special permissions. All user types can create them.
@@ -42,7 +44,7 @@ In order to create a Browser Extention Token, follow the following steps:
 4. Name the token. As tokens are shared across the organization, name them in a descriptive name and click on _**Save**._&#x20;
 5. If successful, the token will be added to the list of tokens. In addition, an _"Agent token created and copied to the clipboard successfully"_ message will appear in the bottom of the screen.&#x20;
 
-### Creating An API Token&#x20;
+## Creating An API Token&#x20;
 
 {% hint style="info" %}
 Creating an API Token requires DevOps or Admin user role. Please refer to the [Onboarding Permissions](role-based-access-control/onboarding-permissions.md#how-to-verify-my-role) page to verify that you have the right permissions.
@@ -56,7 +58,7 @@ In order to create an API Token, follow the following steps:
 4. Name the token. As tokens are shared across the organization, name them in a descriptive name and click on _**Save**._&#x20;
 5. If successful, the token will be added to the list of tokens. In addition, an _"Agent token created and copied to the clipboard successfully"_ message will appear at the bottom of the screen.&#x20;
 
-### Download a Token
+## Download a Token
 
 Press the '**Download**' button<img src="../../.gitbook/assets/image (23).png" alt="" data-size="line"> for the token you have selected (or just created), and a file called _sltoken.txt_ will be downloaded to your computer. Copy it to the location you want to use it.
 
