@@ -39,7 +39,7 @@ The following list contains a list of out of the box integrations to our agent. 
 
 #### Java
 
-<table data-view="cards"><thead><tr><th></th><th align="center"></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td align="center">JUnit 4</td><td></td><td><a href="java/junit-4.md">junit-4.md</a></td></tr><tr><td></td><td align="center">JUnit 5</td><td></td><td></td></tr><tr><td></td><td align="center">TestNG</td><td></td><td></td></tr><tr><td></td><td align="center">Maven</td><td></td><td></td></tr><tr><td></td><td align="center">Gradle</td><td></td><td></td></tr><tr><td></td><td align="center">Ant</td><td></td><td></td></tr><tr><td></td><td align="center">Other</td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th align="center"></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td align="center">JUnit 4</td><td></td><td><a href="java/junit-4.md">junit-4.md</a></td></tr><tr><td></td><td align="center">JUnit 5</td><td></td><td><a href="java/junit-5.md">junit-5.md</a></td></tr><tr><td></td><td align="center">TestNG</td><td></td><td><a href="java/testng.md">testng.md</a></td></tr><tr><td></td><td align="center">Maven</td><td></td><td><a href="java/maven.md">maven.md</a></td></tr><tr><td></td><td align="center">Gradle</td><td></td><td><a href="java/gradle.md">gradle.md</a></td></tr><tr><td></td><td align="center">Ant</td><td></td><td></td></tr><tr><td></td><td align="center">Other</td><td></td><td></td></tr></tbody></table>
 
 #### .NET Core
 
