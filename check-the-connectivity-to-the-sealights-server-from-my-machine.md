@@ -46,6 +46,10 @@ In case this command fails, it is important to understand why. Looking at the de
 For Windows, more details can be found on [Microsoft’s Official documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-webrequest) page.
 {% endhint %}
 
+{% hint style="info" %}
+Important note: We have seen cases in which different machines/containers had different permissions with regard to an outbound connection to Sealights. Please consider repeating this connectivity test from your CI machines and the machines that run your tests and your system under test.
+{% endhint %}
+
 ## How to resolve connectivity issues&#x20;
 
 In case a firewall is present, it needs to **allow network traffic to reach the SeaLights platform,** and depending on your organization’s policy, you can use one of the following solutions.
