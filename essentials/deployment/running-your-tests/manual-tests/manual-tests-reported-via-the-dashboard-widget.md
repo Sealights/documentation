@@ -35,6 +35,8 @@ When the manual test had been completed, it is necessary to notify Sealights abo
 2. Once the result is entered click on “Submit and done” to save the test, click on 'Done' if you have finished, or enter the next one if you wish to continue performing more tests one by one.
    * If you are performing a list of tests, click on “Submit and start the next test”
 
+{% embed url="https://www.loom.com/share/48582c58ddd744e49f184d433569a337" %}
+
 {% hint style="success" %}
 At the completion of your Manual Test, after the necessary time for computation (up to 60 seconds), you should see a coverage percentage associated with your application entry in the Dashboard.
 {% endhint %}
