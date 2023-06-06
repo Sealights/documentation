@@ -22,6 +22,10 @@ Developer that pushed a code change in the Git-based SCM
 
 A set of machines/containers that are hosting your System Under Test (SUT).&#x20;
 
+## Test Group
+
+A set of tests which have some commonality (for example, tests that are being run together  on the same job on the automation infrastructure). Only limitation is that for a particular automation infrastructure job we will have only one test group. A test group can be composed of several such jobs.
+
 ## LabID
 
 Lab IDs enable SeaLights to establish a connection between data collected from multiple agents across various application components and test runners, consolidating them into a single product.
