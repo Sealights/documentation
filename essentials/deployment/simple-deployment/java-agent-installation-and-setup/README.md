@@ -93,6 +93,8 @@ We have gathered a list of the most common configurations below:
 When the **application is up** and running and the **Sealights Agent configured**, you can see it is properly running from the _**Cockpit -> Live Agents Monitor**_ screen.
 {% endhint %}
 
+<figure><img src="../../../../.gitbook/assets/Screenshot 2023-06-13 at 9.12.10.png" alt=""><figcaption></figcaption></figure>
+
 ## Troubleshooting
 
 You have the ability to validate the JVM parameters in use with your application via your terminal&#x20;
