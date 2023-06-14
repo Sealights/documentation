@@ -97,6 +97,8 @@ When the **application is up** and running and the **Sealights Agent configured*
 
 ## Troubleshooting
 
+#### Service is running:
+
 You have the ability to validate the JVM parameters in use with your application via your terminal&#x20;
 
 {% tabs %}
@@ -112,6 +114,8 @@ gwmi -Class Win32_Process -Filter "name like '%java%'" | Format-Table -Wrap -Pro
 ```
 {% endtab %}
 {% endtabs %}
+
+#### Enabling agent logs:
 
 In addition, you can enable logging using additional parameters as environment variables or add them as `-Dsl.*` parameters. Both console output and file options are compatible and non-exclusive.
 
@@ -141,6 +145,22 @@ The user running the Java process must have writing permissions to the folder sp
 {% endtab %}
 {% endtabs %}
 
+#### Java classes found by the agent
+
+After enabling [logs](./#enabling-agent-logs), search in the logs for the pattern ["scan report"](#user-content-fn-1)[^1] &#x20;
+
+Verity agent was able to find your Java classes by writing to the log line similar to the below:
+
+```
+// Some code2023-06-11 06:23:36,859 INFO  [|Thread-4    |] i.s.o.a.f.s.i.MetricsCollector : scan report - jars: 3, classes: 18, methods: 42, total time: 698
+```
+
+if number of jars is 0 or less from the amount of jars in your application check **sl.workspace** parameter and verify it's correct and the jars are in that folder
+
+if number of classes is 0 or low check the **sl.includes** parameter and verify it's in your application packages structure.&#x20;
+
+
+
 If further assistance is required, please [contact Sealights Support](../../../../contact-sealights-support/).
 
 ## Next Step
@@ -148,3 +168,5 @@ If further assistance is required, please [contact Sealights Support](../../../.
 You're now ready to [perform a quick Manual ](../../running-your-tests/manual-tests/)Test to ensure the Sealights agent can capture coverage properly.
 
 After the coverage is captured from Manual Tests, you're set to integrate with your Test Automation framework.
+
+[^1]: Use a text editor and search for "scan report"
