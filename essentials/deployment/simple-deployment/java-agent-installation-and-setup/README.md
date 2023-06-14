@@ -138,6 +138,10 @@ For logging into a file, add:
 {% hint style="warning" %}
 The user running the Java process must have writing permissions to the folder specified as the `log.folder` parameter. Lack of permission may lead to an empty folder.
 {% endhint %}
+
+{% hint style="info" %}
+The default file name is _java-agent.log._
+{% endhint %}
 {% endtab %}
 
 {% tab title="Logging Parameters" %}
