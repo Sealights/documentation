@@ -117,7 +117,7 @@ gwmi -Class Win32_Process -Filter "name like '%java%'" | Format-Table -Wrap -Pro
 
 #### Enabling agent logs:
 
-In addition, you can enable logging using additional parameters as environment variables or add them as `-Dsl.*` parameters. Both console output and file options are compatible and non-exclusive.
+You can enable logging using additional parameters as environment variables or add them as `-Dsl.*` parameters. Both console output and file options are compatible and non-exclusive.
 
 {% tabs %}
 {% tab title="Console" %}
@@ -136,7 +136,7 @@ For logging into a file, add:
 ```
 
 {% hint style="warning" %}
-The user running the Java process must have writing permissions to the folder specified as the `log.folder` parameter.
+The user running the Java process must have writing permissions to the folder specified as the `log.folder` parameter. Lack of permission may lead to an empty folder.
 {% endhint %}
 {% endtab %}
 
