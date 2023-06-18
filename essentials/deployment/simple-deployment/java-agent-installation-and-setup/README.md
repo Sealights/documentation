@@ -93,7 +93,11 @@ We have gathered a list of the most common configurations below:
 When the **application is up** and running and the **Sealights Agent configured**, you can see it is properly running from the _**Cockpit -> Live Agents Monitor**_ screen.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2023-06-13 at 9.12.10.png" alt=""><figcaption></figcaption></figure>
+See example for properly running agents. Verify that the app, branch, build. labID and machine name match the agent you ran:
+
+<figure><img src="../../../../.gitbook/assets/Screenshot 2023-06-13 at 15.19.28.png" alt=""><figcaption><p>Live Agents Monitor</p></figcaption></figure>
+
+If no agents appears please follow the [troubleshooting](./#troubleshooting) instructions below.
 
 ## Troubleshooting
 
