@@ -6,8 +6,6 @@
 
 Sealights allows you to collect code coverage and receive & execute [test recommendations](#user-content-fn-1)[^1] for a Product[^2].
 
-**Product -** A collection of application components (microservices, web applications, monolith backend, etc.).
-
 A complete Sealights installation of a product involves three logical steps:
 
 1. **Scan the build artifacts** of the application components that you would like to report to Sealights. Scanning the application components will help Sealights understand which code should be tracked for code coverage and changes.&#x20;
