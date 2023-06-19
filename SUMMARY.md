@@ -5,6 +5,14 @@
   * [Key Features](introduction-to-sealights/key-features.md)
   * [Supported Technologies](introduction-to-sealights/supported-technologies.md)
 
+## Quick Start
+
+* [Step 1: Choosing Deployment Type](quick-start/step-1-choosing-deployment-type.md)
+* [Step 2: Preparing for Integration](quick-start/step-2-preparing-for-integration.md)
+* [Step 3: Collecting Code Coverage](quick-start/step-3-collecting-code-coverage.md)
+* [Step 4: Running Manual Tests](quick-start/step-4-running-manual-tests.md)
+* [Step 5 (optional): Running Automated Tests](quick-start/step-5-optional-running-automated-tests.md)
+
 ## Essentials
 
 * [Deployment](essentials/deployment/README.md)
