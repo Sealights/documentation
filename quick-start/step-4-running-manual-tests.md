@@ -37,5 +37,5 @@ When the manual test had been completed, it is necessary to notify Sealights abo
 At the completion of your Manual Test, after the necessary time for computation (up to 60 seconds), you should see a coverage percentage associated with your application entry in the Dashboard.
 {% endhint %}
 
-Congratulations! You completed the basic setup! The next optional step will be to integrate Sealights into your automated tests.&#x20;
+Congratulations! You completed the basic setup! The next optional step will be to integrate Sealights into your [automated tests](step-5-optional-running-automated-tests.md).&#x20;
 
