@@ -173,7 +173,7 @@ If further assistance is required, please [contact Sealights Support](../../../.
 
 ## Next Step
 
-You're now ready to [perform a quick Manual ](../../running-your-tests/manual-tests/)Test to ensure the Sealights agent can capture coverage properly.
+You're now ready to [perform a quick Manual](../../running-your-tests/manual-tests/manual-tests-reported-via-the-dashboard-widget.md) Test to ensure the Sealights agent can capture coverage properly.
 
 After the coverage is captured from Manual Tests, you're set to [integrate with your Test Automation framework](../#step-2-integrate-into-the-test-runner).
 
