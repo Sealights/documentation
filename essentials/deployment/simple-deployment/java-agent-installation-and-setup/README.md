@@ -175,6 +175,6 @@ If further assistance is required, please [contact Sealights Support](../../../.
 
 You're now ready to [perform a quick Manual ](../../running-your-tests/manual-tests/)Test to ensure the Sealights agent can capture coverage properly.
 
-After the coverage is captured from Manual Tests, you're set to integrate with your Test Automation framework.
+After the coverage is captured from Manual Tests, you're set to [integrate with your Test Automation framework](../#step-2-integrate-into-the-test-runner).
 
 [^1]: Use a text editor and search for "scan report"
