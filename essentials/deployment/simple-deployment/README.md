@@ -4,7 +4,7 @@
 
 ## Overview
 
-Sealights allows you to collect code coverage and apply test selection to a Product.
+Sealights allows you to collect code coverage and receive & execute [test recommendations](#user-content-fn-1)[^1] for a Product[^2].
 
 **Product -** A collection of application components (microservices, web applications, monolith backend, etc.).
 
@@ -12,7 +12,7 @@ A complete Sealights installation of a product involves three logical steps:
 
 1. **Scan the build artifacts** of the application components that you would like to report to Sealights. Scanning the application components will help Sealights understand which code should be tracked for code coverage and changes.&#x20;
 2. **Collect Code Coverage.** In order to capture code coverage data & metadata from your application under tests while your tests are running.&#x20;
-3. **Integrate into the test runner (test automation framework or manual runner).** In order to indicate to Sealights when a [Test Cycle](#user-content-fn-1)[^1] starts and to get [Test Recommendations.](#user-content-fn-2)[^2]
+3. **Integrate into the test runner (test automation framework or manual runner).** In order to indicate to Sealights when a [Test Cycle](#user-content-fn-3)[^3] starts and to get [Test Recommendations.](#user-content-fn-4)[^4]
 
 {% hint style="info" %}
 In Simple Deployment, steps 1 and 2 happen together on the application under test.
@@ -28,7 +28,7 @@ The following prerequisites have to be completed before starting the deployment:
 
 1. Verify that you have an account in Sealights. For instructions on how to create an account, refer to the [account creation](../../../administration/account-management/#creating-a-new-sealights-account) page.
 2. Onboarding requires DevOps or Admin permissions in the Sealights Platform. [Please verify that you have the right permission](../../../administration/account-management/role-based-access-control/onboarding-permissions.md).
-3. Verify that the environment[^3] of the system under test and the machine(s) that run the test have connectivity to Sealights Cloud. See the [How to verify connectivity](../../../check-the-connectivity-to-the-sealights-server-from-my-machine.md) guide for more information.
+3. Verify that the environment[^5] of the system under test and the machine(s) that run the test have connectivity to Sealights Cloud. See the [How to verify connectivity](../../../check-the-connectivity-to-the-sealights-server-from-my-machine.md) guide for more information.
 4. Installing Sealights requires modifying your application components' deployment scripts and possibly the CI Job that runs your tests. Please verify you have the necessary permissions in your organization.
 
 ### Installation
@@ -37,8 +37,8 @@ The following prerequisites have to be completed before starting the deployment:
 
 The following steps are required in order to install the agent:
 
-1. [Create](../../../administration/account-management/token-management.md#creating-an-agent-token) an [agent token](#user-content-fn-4)[^4] (you'll need this token for the Sealights Agent configuration in step #3)
-2. [Create a ](../../../administration/account-management/testing-environments-and-identifiers-management.md#create-a-simple-deployment-integration-build-lab)[Lab ID](#user-content-fn-5)[^5] (you'll need this generated identifier for the Sealights Agent configuration in step #3)
+1. [Create](../../../administration/account-management/token-management.md#creating-an-agent-token) an [agent token](#user-content-fn-6)[^6] (you'll need this token for the Sealights Agent configuration in step #3)
+2. [Create a ](../../../administration/account-management/testing-environments-and-identifiers-management.md#create-a-simple-deployment-integration-build-lab)[Lab ID](#user-content-fn-7)[^7] (you'll need this generated identifier for the Sealights Agent configuration in step #3)
 3. Download the Sealights Agent and configure your application to start with it. Detailed instructions on downloading and installing the agent will follow the notes below.
 
 {% hint style="info" %}
@@ -81,12 +81,16 @@ In case one of the steps above did not succeed and you were not able to resolve 
 
 
 
-[^1]: A test cycle is a collection of tests organized to accomplish specific testing objectives, encompassing a broader scope than individual tests. Common examples are Regression Tests, End-To-End Tests, Manual Tests, and more.
+[^1]: As part of the Test Optimization offering, Sealights recommends which tests should be run. This is done by considering historical runs of your tests and correlating them with your current code changes. You can accelerate your CI without compromising your quality by running these recommendations.
 
-[^2]: As part of the Test Optimization offering, Sealights recommends which tests should be run. This is done by considering historical runs of your tests and correlating them with your current code changes. You can accelerate your CI without compromising your quality by running these recommendations.
+[^2]: A collection of application components (microservices, web applications, monolith backend, etc.).
 
-[^3]: A set of machines/containers that are hosting your System Under Test (SUT).&#x20;
+[^3]: A test cycle is a collection of tests organized to accomplish specific testing objectives, encompassing a broader scope than individual tests. Common examples are Regression Tests, End-To-End Tests, Manual Tests, and more.
 
-[^4]: Agent token is needed in order to allow the agent to securely communicate with  Sealights Cloud.
+[^4]: As part of the Test Optimization offering, Sealights recommends which tests should be run. This is done by considering historical runs of your tests and correlating them with your current code changes. You can accelerate your CI without compromising your quality by running these recommendations.
 
-[^5]: Lab IDs enable SeaLights to establish a connection between data collected from multiple agents across various application components and test runners, consolidating them into a single product.
+[^5]: A set of machines/containers that are hosting your System Under Test (SUT).&#x20;
+
+[^6]: Agent token is needed in order to allow the agent to securely communicate with  Sealights Cloud.
+
+[^7]: Lab IDs enable SeaLights to establish a connection between data collected from multiple agents across various application components and test runners, consolidating them into a single product.
