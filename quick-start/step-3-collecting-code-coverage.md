@@ -1,5 +1,9 @@
 # Step 3: Collecting Code Coverage
 
+{% hint style="info" %}
+In this section, we'll cover how to install Sealights for a single service. This setup should be repeated for each microservice that your have
+{% endhint %}
+
 ## Prerequisites
 
 ### Download the Sealights Agent&#x20;
