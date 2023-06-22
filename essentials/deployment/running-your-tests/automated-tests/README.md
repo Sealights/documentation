@@ -2,21 +2,21 @@
 
 ## Overview
 
-Automated tests are executed using software tools and scripts without manual intervention, providing efficient and repeatable verification of software functionality. By integrating Sealights into your automated tests framework, you will be able to see code coverage and test recommendations.
+Automated tests are executed using software tools and scripts without manual intervention, providing efficient and repeatable verification of software functionality. By integrating Sealights into your automated tests framework, you will be able to see code coverage and [test recommendations](#user-content-fn-1)[^1].
 
-## Integration Types
+## Integrating Sealights to Your Automated Tests
 
-There are three Integration Types in Sealights:
+When it comes to integrating Sealights into your automated tests, there are three Integration Types. Each integration type requires different integration effort but also provide different capabilities. Integration Types:
 
-1. **Coverage Only Integration -** Allows seeing code coverage for a product[^1] composed of multiple application components (backend services and front end) for a single environment[^2] and [test stage](#user-content-fn-3)[^3]. This type of onboarding is agnostic to the test runner. However, it doesn't allow a user to get Test Recommendations. See the [collecting coverage](../guides/collecting-coverage.md) guide for more information.
-2. **Deep Agent Integration -** Allows you to onboard a product[^4] composed of multiple application components (backend services and front end) for a single environment[^5] and [test stage](#user-content-fn-6)[^6]. This type of integration provides code coverage and test recommendation; however, it requires that Sealights will support your test framework/runner.
+1. **Coverage Only Integration -** Allows seeing code coverage for a product[^2] composed of multiple application components (backend services and front end) for a single environment[^3] and [test stage](#user-content-fn-4)[^4]. This type of onboarding is agnostic to the test runner. However, it doesn't allow a user to get Test Recommendations. See the [collecting coverage](../guides/collecting-coverage.md) guide for more information.
+2. **Deep Agent Integration -** Allows you to onboard a product[^5] composed of multiple application components (backend services and front end) for a single environment[^6] and [test stage](#user-content-fn-7)[^7]. This type of integration provides code coverage and test recommendation; however, it requires that Sealights will support your test framework/runner.
 3. **Custom Integration -** For scenarios where Sealights doesn't support your test framework but still wants to get code coverage _and_ test recommendations, you can use our [public APIs](../../../apis/test-optimization.md) and create a custom integration.
 
 ## Setup
 
 ### Overview
 
-The following section describes how to use a Deep Agent Integration, which allows you to onboard a product[^7] composed of multiple application components (backend services and front end) for a single environment[^8] and [test stage](#user-content-fn-9)[^9]. This type of integration provides code coverage and test recommendation; however, it requires that Sealights will support your test framework/runner.
+The following section describes how to use a Deep Agent Integration, which allows you to onboard a product[^8] composed of multiple application components (backend services and front end) for a single environment[^9] and [test stage](#user-content-fn-10)[^10]. This type of integration provides code coverage and test recommendation; however, it requires that Sealights will support your test framework/runner.
 
 ### Prerequisites&#x20;
 
@@ -75,20 +75,22 @@ If the integration went as expected, you could validate that it worked by lookin
 * Test Optimization - [Public API](../../../apis/test-optimization.md) documentation.
 * [Integrating Sealights into Gauge](../guides/integrating-sealights-to-gauge.md)  - a walkthrough describing how to write a custom integration to Gauge
 
-[^1]: A collection of application components (microservices, web applications, monolith backend, etc.).
+[^1]: As part of the Test Optimization offering, Sealights recommends which tests should be run. This is done by considering historical runs of your tests and correlating them with your current code changes. You can accelerate your CI without compromising your quality by running these recommendations
 
-[^2]: A set of machines/containers that are hosting your System Under Test (SUT).
+[^2]: A collection of application components (microservices, web applications, monolith backend, etc.).
 
-[^3]: A test stage or test cycle is a collection of tests organized to accomplish specific testing objectives, encompassing a broader scope than individual tests. Common examples are Regression Tests, End-To-End Tests, Manual Tests, and more.
+[^3]: A set of machines/containers that are hosting your System Under Test (SUT).
 
-[^4]: A collection of application components (microservices, web applications, monolith backend, etc.).
+[^4]: A test stage or test cycle is a collection of tests organized to accomplish specific testing objectives, encompassing a broader scope than individual tests. Common examples are Regression Tests, End-To-End Tests, Manual Tests, and more.
 
-[^5]: A set of machines/containers that are hosting your System Under Test (SUT).
+[^5]: A collection of application components (microservices, web applications, monolith backend, etc.).
 
-[^6]: A test stage or test cycle is a collection of tests organized to accomplish specific testing objectives, encompassing a broader scope than individual tests. Common examples are Regression Tests, End-To-End Tests, Manual Tests, and more.
+[^6]: A set of machines/containers that are hosting your System Under Test (SUT).
 
-[^7]: A collection of application components (microservices, web applications, monolith backend, etc.).
+[^7]: A test stage or test cycle is a collection of tests organized to accomplish specific testing objectives, encompassing a broader scope than individual tests. Common examples are Regression Tests, End-To-End Tests, Manual Tests, and more.
 
-[^8]: A set of machines/containers that are hosting your System Under Test (SUT).
+[^8]: A collection of application components (microservices, web applications, monolith backend, etc.).
 
-[^9]: A test stage or test cycle is a collection of tests organized to accomplish specific testing objectives, encompassing a broader scope than individual tests. Common examples are Regression Tests, End-To-End Tests, Manual Tests, and more.
+[^9]: A set of machines/containers that are hosting your System Under Test (SUT).
+
+[^10]: A test stage or test cycle is a collection of tests organized to accomplish specific testing objectives, encompassing a broader scope than individual tests. Common examples are Regression Tests, End-To-End Tests, Manual Tests, and more.
