@@ -12,9 +12,7 @@ Although there is more than one way to run manual tests, the simplest one will b
 2.  Choose the 'By Lab' option in the top radio button and make sure the selected identifier matches the one defined in the parameters to the Sealights agent attached to your application under test. This will ensure all your Sealights agents are synchronized.
 
 
-
-    <figure><img src="../.gitbook/assets/image (12).png" alt="" width="218"><figcaption></figcaption></figure>
-3. In the Test Details section, enter the test stage and the test suite (optional). Typically, the Test stage would be 'Manual Tests'.
+3. In the Test Details section, enter the test stage and, optionally, a test suite. Typically, the Test stage would be 'Manual Tests'. Note: In most cases, the "test stage" field is a text box allowing free text; however, some organizations have a predefined list of test stages, meaning you'll have to select a test stage from a drop-down list.  In the Test Details section, enter the test stage and the test suite (optional). Typically, the Test stage would be 'Manual Tests'.
 4.  Choose the radio button “single test” and enter the test name you're about to execute. If the test was previously run and reported to SeaLights, an auto-complete will help you find it quickly.\
 
 
