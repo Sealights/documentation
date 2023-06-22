@@ -18,7 +18,7 @@ In any of the options, once the test is performed, it is registered by the syste
 
 
     <figure><img src="../../../../.gitbook/assets/image (12).png" alt="" width="218"><figcaption></figcaption></figure>
-3. In the Test Details section, enter the test stage and the test suite (optional). Typically, the Test stage would be 'Manual Tests'.
+3. In the Test Details section, enter the test stage and, optionally a test suite. Typically, the Test stage would be 'Manual Tests'.
 4.  Choose the radio button “single test” and enter the test name you're about to execute. If the test was previously run and reported to SeaLights, an auto-complete will help you find it quickly.\
 
 
