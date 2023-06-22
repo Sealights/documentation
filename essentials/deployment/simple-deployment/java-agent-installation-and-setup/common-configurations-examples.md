@@ -6,7 +6,7 @@ We have gathered a list of the most common configurations for you
 
 Setuping the Java Agent is possible for various configurations according to the deployment model of your Application Under Test.
 
-When starting your application under test using a CLI command, you need to specify a the Sealights agent as part of the command. The following snippet shows the command after integrating Sealights, but for your convenience, we've added a reference to the command before Sealights integration:&#x20;
+When starting your application under test using a CLI command, you need to specify the Sealights agent as part of the command. The following snippet shows the command after integrating Sealights, but for your convenience, we've added a reference to the command before Sealights integration:&#x20;
 
 {% tabs %}
 {% tab title="After Sealights Integration" %}
