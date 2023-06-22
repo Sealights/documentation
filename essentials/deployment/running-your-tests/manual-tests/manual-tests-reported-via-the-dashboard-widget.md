@@ -8,7 +8,7 @@ There are three ways to ‘let the Sealights know’ which test is being perform
 2. Upload a list of tests from a CSV file
 3. Use the tests recommended by the TIA engine for the build that is being tested
 
-In any of the options, once the test is performed, it is registered by the system in the same way and is used for the production of recommendations for the next build in the branch
+In any of the options, once the test is performed, it is registered by the system in the same way and is used for the production of recommendations for the next build in the branch.
 
 ## _**Entering a single test name to the extension each time**_
 
@@ -18,7 +18,7 @@ In any of the options, once the test is performed, it is registered by the syste
 
 
     <figure><img src="../../../../.gitbook/assets/image (12).png" alt="" width="218"><figcaption></figcaption></figure>
-3. In the Test Details section, enter the test stage and, optionally a test suite. Typically, the Test stage would be 'Manual Tests'.
+3. In the Test Details section, enter the test stage and, optionally, a test suite. Typically, the Test stage would be 'Manual Tests'. Note: In most cases, the "test stage" field is a text box allowing free text; however, some organizations have a predefined list of test stages, meaning you'll have to select a test stage from a drop-down list. &#x20;
 4.  Choose the radio button “single test” and enter the test name you're about to execute. If the test was previously run and reported to SeaLights, an auto-complete will help you find it quickly.\
 
 
@@ -31,9 +31,9 @@ After the click on start, the interface will minimize and will only show the nam
 
 When the manual test had been completed, it is necessary to notify Sealights about it:
 
-1. Click on the stop button in order to finish the execution of the test, and enter the result.
-2. Once the result is entered click on “Submit and done” to save the test, click on 'Done' if you have finished, or enter the next one if you wish to continue performing more tests one by one.
-   * If you are performing a list of tests, click on “Submit and start the next test”
+1. Click on the stop button in order to finish the execution of the test and enter the result.
+2. Once the result is entered, click “Submit and done” to save the test, click " Done " if you have finished, or enter the next one if you wish to continue performing more tests one by one.
+   * If you are performing a list of tests, click on “Submit and start the next test”.
 
 {% embed url="https://www.loom.com/share/48582c58ddd744e49f184d433569a337" %}
 
