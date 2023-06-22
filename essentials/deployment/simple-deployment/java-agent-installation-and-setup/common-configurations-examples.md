@@ -6,14 +6,10 @@ We have gathered a list of the most common configurations for you
 
 Setuping the Java Agent is possible for various configurations according to the deployment model of your Application Under Test.
 
-When starting your application under test using a CLI command, you'll update it from&#x20;
+When starting your application under test using a CLI command, you need to specify a the Sealights agent as part of the command. The following snippet shows the command after integrating Sealights, but for your convenience, we've added a reference to the command before Sealights integration:&#x20;
 
-```sh
-java -jar my_app.jar
-```
-
-to
-
+{% tabs %}
+{% tab title="After Sealights Integration" %}
 ```sh
 java -javaagent:/sealights/sl-cd-agent.jar \
     -Dsl.token=${SL_TOKEN}
@@ -24,6 +20,14 @@ java -javaagent:/sealights/sl-cd-agent.jar \
     -Dsl.includes=works* \
     -jar my_app.jar
 ```
+{% endtab %}
+
+{% tab title="Before Sealights Integration" %}
+```sh
+java -jar my_app.jar
+```
+{% endtab %}
+{% endtabs %}
 
 In some environments, the startup is deeply nested in scripts and the command line is not accessible to start the application with the necessary command-line options. In these environments, the environment variable can be useful to augment a command line as it allows you to specify the initialization of tools, specifically the launching of agents using the `-javaagent` options.
 
