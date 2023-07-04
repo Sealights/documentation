@@ -171,7 +171,7 @@ if number of classes is 0 or low check the **sl.includes** parameter and verify 
 
 If further assistance is required, please [contact Sealights Support](../../../../contact-sealights-support/).
 
-## Next Step2
+## Next Step
 
 You're now ready to [perform a quick Manual](../../running-your-tests/manual-tests/manual-tests-reported-via-the-dashboard-widget.md) Test to ensure the Sealights agent can capture coverage properly.
 
