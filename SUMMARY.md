@@ -43,12 +43,12 @@
 
 ***
 
-* [☎ Contact Sealights Support](contact-sealights-support/README.md)
+* [☎️ Contact Sealights Support](contact-sealights-support/README.md)
   * [📦 Attach a file to a ticket](contact-sealights-support/attach-a-file-to-a-ticket.md)
 
 ## Administration
 
-* [⚙ Account Management](administration/account-management/README.md)
+* [⚙️ Account Management](administration/account-management/README.md)
   * [Role-Based Access Control](administration/account-management/role-based-access-control/README.md)
     * [Onboarding Permissions](administration/account-management/role-based-access-control/onboarding-permissions.md)
     * [Roles and Permissions Matrix](administration/account-management/role-based-access-control/roles-and-permissions-matrix.md)
